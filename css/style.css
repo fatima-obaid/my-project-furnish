@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Great+Vibes&family=Rajdhani:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    margin-top: -60px;
+    margin-left: 1030px;
+}
+.content{
+    margin-top: -260px;
+    background-color: rgba(244, 241, 239, 0.365);
+    height: 340px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-img,.container-icon,nav{
+    margin-top: 50px;
+}
+.container-img{
+    margin-left: -20px;
+}
+nav{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: -90px;
+    font-family: 'Rajdhani', sans-serif;
+ }
+ nav a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000;
+ }
+ .a1{
+    color: #ffae00;
+ }
+a:hover{
+    transition: 1s;
+    color: #ffae00;
+}
+.container-icon{
+    font-size: 23px;
+    color: #4f4c4c;
+}
+.fa-cog{
+    margin-right: 20px;
+}
+.fa-cog:hover,.fa-shopping-bag:hover,.fa-th-list:hover{
+    color: #ffae00; 
+}
+.fa-shopping-bag::after{
+    position: absolute;
+    content: "2";
+    color: #ffae00; 
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left:3px;
+}
+.title{
+    font-family: 'Rajdhani', sans-serif;
+    margin-top: -150px;
+    margin-left: 130px;
+}
+.title h1{
+    margin-bottom: 10px;
+}
+.title .span1{
+    color: #302f2f;
+    font-size: 20px;
+    font-weight: 700;
+}
+ .title .span{
+    color: #ffae00; 
+}
+.section1{
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    margin-top: 150px;
+}
+.fa-th,.fa-th-list{
+    border:1px solid #ffae00;
+    color: #ffae00;
+    font-size: 20px;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    margin-left: 133px;
+    cursor: pointer;
+}
+.fa-search{
+    border:1px solid #ffae00;
+    font-size: 20px;
+    padding: 9px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #ffae00;
+    color: #fff;
+    position: absolute;
+}
+.fa-search:hover{
+    color: #fff;
+}
+.fa-th-list{
+    color: #5b5a5a;
+    margin-left: 5px;
+    border: 1px solid  #b8b5b5;
+    transition: 1s;
+}
+.section1-p p{
+    font-size: 20px;
+    padding-left: 300px;
+}
+.section-select select{
+    color: #797979;
+    border: 1px solid #ddd;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 220px;
+    width: 150px;
+    height: 35px;
+}
+.section1-search{
+    position: relative;
+    margin-left: 100px;
+}
+.section1-search input{
+    border: 1px solid #ddd;
+    color: #aeacac;
+    font-size: 16px;
+    height: 40px;
+    padding: 7px 12px;
+    width: 100%;
+    text-transform: capitalize;
+}
+.content1{
+    display: grid;
+    row-gap: 160px;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,340px);
+    grid-template-rows: repeat(4,250px); 
+}
+.content1 div{
+    width: 250px;
+    height: 300px;
+    margin-left: 130px;
+}
+.list,.list1{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #3938388d;
+    text-transform: capitalize;
+    font-family: 'Rajdhani', sans-serif;
+}
+.div-info h3,.div2-info h3,.div3-info h3{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 25px;
+}
+.list li ,.list1 li{
+    margin: 8px 0;
+}
+.list li:hover{
+    color: #ffae00; 
+    cursor: pointer;
+    transform: scale(0.9);
+}
+.fa-chevron-right,.fa-circle,.fa-chevron-left{
+    font-size: 13px;
+    margin-right: 5px;
+}
+.div2-info,.div3-info{
+    margin-top: -80px;
+}
+.fa1{
+    color: rgba(0, 0, 255, 0.737);
+}
+.fa3{
+   color: rgba(165, 42, 42, 0.735); 
+}
+.fa4{
+    color:rgba(0, 128, 0, 0.689);
+}
+.fa5{
+    color:rgba(255, 0, 0, 0.687);
+}
+.fa6{
+    color:rgba(255, 166, 0, 0.763);
+}
+.fa7{
+    color:black;
+}
+.div3-info span{
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #797979;
+    font-weight: 700;
+    border:1px solid #878683;
+    margin-right: 5px;
+    margin-bottom:9px;
+    padding: 8px;
+}
+.div3-info span:hover{
+    color: #ffae00;
+    border:1px solid #ffae00; 
+    cursor: pointer;  
+}
+.div3-info h3{
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+.content1-info p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+.content1-info h4{
+    text-align: center;
+}
+.content1-info img:hover{
+transform: scale(0.9);
+opacity: 0.8;
+cursor: pointer;
+box-shadow: 0 5px 4px 0 rgba(118, 117, 117, 0.438);
+}
+.section3-span{
+   position: absolute;
+    display: inline-block;
+    margin-top: -250px;
+    margin-left: 460px;  
+}
+.section3-span span{
+    background-color: #dddddd89;
+    font-size: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: 'Rajdhani', sans-serif;
+}
+.section3-span .span-1{
+    background-color: #ffae00;
+    color: #f4f2f2;
+}
+.section3-span .span-1:hover{
+    color: #f4f2f2;  
+}
+.section3-span span:hover{
+    color: #ffae00;
+}
+#price1{
+    border: 1px solid  #87868398;
+    width: 300px;
+    height: 100px;
+    margin-left: 1150px;
+}
+#show{
+    position: absolute;
+    border: 1px solid  #87868398;
+    margin-left: 1150px;
+    margin-top: -570px;
+    overflow: auto;
+    text-transform: uppercase;
+}
+#price1{
+    position: absolute;
+    margin-top: -455px;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 1250px;
+}
+.h4{
+    position: absolute;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-left: 1150px;
+    margin-top: -610px;
+}
+#but1{
+position: absolute;
+border: 1px solid #ffae00;
+ margin-top: 20px;
+ width: 110px;
+ height: 40px;
+ font-weight: 700;
+ text-transform: uppercase;
+ font-family: 'Rajdhani', sans-serif;
+ font-size: 15px;
+ background-color: #ffae00 ;
+ color: #fffcfc;
+ border-radius:3px ;
+ cursor: pointer;
+ box-shadow: 0 5px 4px 0 rgba(118, 117, 117, 0.562);
+ margin-left: 1150px; 
+ margin-top: -405px; 
+}
+h5{
+    position: absolute;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 1150px;
+    margin-top: -450px;  
+    font-size: 18px; 
+    text-transform: uppercase;
+}
+#but1:hover{
+    opacity: 0.9;
+    transform: scale(0.96);
+}
